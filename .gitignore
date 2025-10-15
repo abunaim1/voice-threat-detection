@@ -1,0 +1,42 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data files (large audio files)
+data/raw/*
+data/processed/*
+data/dataset/*/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models (can be large)
+models/*.h5
+models/*.pkl
+models/*.pt
+models/*.pth
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
