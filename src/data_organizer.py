@@ -148,7 +148,7 @@ class DataOrganizer:
                     })
         
         if len(report_data) == 0:
-            print("⚠️  No valid audio files found in dataset directories")
+            print("No valid audio files found in dataset directories")
             print("Please organize your files first using organize_files()")
             return None
         

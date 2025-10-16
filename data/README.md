@@ -97,5 +97,8 @@ Before augmentation, ensure:
 
 ---
 
+**Dataset Statistics:**
+- [ ] python -c "from src.data_organizer import DataOrganizer; org = DataOrganizer('.'); org.dataset_dir = org.project_root / 'data' / 'augmented'; org.generate_dataset_report()"
+
 **Remember**: The model learns EMOTION/TONE, not the actual words!
 Same phrase in different tones = different classes! 🎯
