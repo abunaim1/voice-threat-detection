@@ -100,9 +100,9 @@ Before augmentation, ensure:
 **Dataset Statistics**: python -c "from src.data_organizer import DataOrganizer; org = DataOrganizer('.'); org.dataset_dir = org.project_root / 'data' / 'augmented'; org.generate_dataset_report()"
 
 **Converts audio to 16kHz mono .wav**:
-for f in data/raw/*.mp3; do
+for f in data/raw/*.m4a; do
   [ -e "$f" ] || continue
-  base="${f%.mp3}"
+  base="${f%.m4a}"
   ffmpeg -y -i "$f" -ar 16000 -ac 1 "${base}.wav" && rm "$f"
 done
 
