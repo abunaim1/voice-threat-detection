@@ -57,11 +57,11 @@ pip install -r requirements.txt
 
 ## 📈 Current Status
 - [x] Phase 1: Project Setup
-- [ ] Phase 2: Data Collection
-- [ ] Phase 3: Feature Engineering
-- [ ] Phase 4: Model Development
-- [ ] Phase 5: Training & Evaluation
-- [ ] Phase 6: Deployment
+- [x] Phase 2: Data Collection
+- [x] Phase 3: Feature Engineering
+- [x] Phase 4: Model Development
+- [x] Phase 5: Training & Evaluation
+- [x] Phase 6: Deployment
 
 ## 👤 Author
 **abunaim1**

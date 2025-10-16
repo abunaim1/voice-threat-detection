@@ -1,0 +1,11 @@
+{
+  "model_type": "fnn",
+  "test_accuracy": 0.8724035608308606,
+  "train_date": "2025-10-17 04:28:26",
+  "classes": [
+    "normal",
+    "threatened",
+    "unrecognized"
+  ],
+  "n_features": 87
+}

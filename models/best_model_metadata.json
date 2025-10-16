@@ -1,0 +1,11 @@
+{
+  "model_type": "svm",
+  "test_accuracy": 0.8753709198813057,
+  "train_date": "2025-10-17 04:23:16",
+  "classes": [
+    "normal",
+    "threatened",
+    "unrecognized"
+  ],
+  "n_features": 87
+}

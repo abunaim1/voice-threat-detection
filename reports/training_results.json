@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-10-17 04:23:16",
+  "models": {
+    "random_forest": {
+      "model": "random_forest",
+      "train_accuracy": 0.9789808917197452,
+      "val_accuracy": 0.8486646884272997,
+      "test_accuracy": 0.8338278931750742,
+      "test_precision": 0.8318999144738456,
+      "test_recall": 0.8338278931750742,
+      "test_f1": 0.8299315300140336
+    },
+    "svm": {
+      "model": "svm",
+      "train_accuracy": 0.9331210191082803,
+      "val_accuracy": 0.8753709198813057,
+      "test_accuracy": 0.8753709198813057,
+      "test_precision": 0.8741119529832041,
+      "test_recall": 0.8753709198813057,
+      "test_f1": 0.874634247072404
+    },
+    "gradient_boosting": {
+      "model": "gradient_boosting",
+      "train_accuracy": 0.9789808917197452,
+      "val_accuracy": 0.8456973293768546,
+      "test_accuracy": 0.8486646884272997,
+      "test_precision": 0.848610212913654,
+      "test_recall": 0.8486646884272997,
+      "test_f1": 0.8463318561846103
+    },
+    "knn": {
+      "model": "knn",
+      "train_accuracy": 0.9777070063694268,
+      "val_accuracy": 0.8338278931750742,
+      "test_accuracy": 0.8367952522255193,
+      "test_precision": 0.8331330329556034,
+      "test_recall": 0.8367952522255193,
+      "test_f1": 0.8340449905987611
+    }
+  }
+}
