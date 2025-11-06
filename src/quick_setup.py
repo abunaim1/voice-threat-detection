@@ -32,7 +32,7 @@ def create_directory_structure():
     print("Creating directory structure...")
     for directory in directories:
         Path(directory).mkdir(parents=True, exist_ok=True)
-        print(f"  ✅ {directory}")
+        print(f" {directory}")
     
     # Create .gitkeep files in data directories
     data_dirs = ['data/raw', 'data/dataset', 'data/processed', 'data/augmented']
@@ -40,8 +40,8 @@ def create_directory_structure():
         gitkeep = Path(data_dir) / '.gitkeep'
         gitkeep.touch()
     
-    print("\n✅ Directory structure created successfully!")
-    print("\n📝 Next steps:")
+    print("\n Directory structure created successfully!")
+    print("\n Next steps:")
     print("  1. Place your audio files in data/raw/")
     print("  2. Name them: threatened_001.wav, normal_001.wav, etc.")
     print("  3. Run: python src/data_organizer.py")
@@ -52,7 +52,7 @@ def create_readme_instructions():
     
     readme_content = """# Phase 2: Data Collection Instructions
 
-## 📝 Recording Guidelines
+## Recording Guidelines
 
 ### Equipment Needed
 - Your voice recording device
@@ -120,7 +120,7 @@ Record these with **poor quality/unclear audio**:
 
 ---
 
-## 📁 File Naming Convention
+## File Naming Convention
 
 Use this format: `{class}_{identifier}.wav`
 
@@ -128,7 +128,7 @@ Use this format: `{class}_{identifier}.wav`
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 1. **Record** your audio files
 2. **Save** them in `data/raw/` with proper naming
@@ -155,7 +155,7 @@ Same phrase in different tones = different classes! 🎯
     
     readme_path = Path('data/RECORDING_INSTRUCTIONS.md')
     readme_path.write_text(readme_content, encoding='utf-8')
-    print(f"✅ Recording instructions created: {readme_path}")
+    print(f"Recording instructions created: {readme_path}")
 
 
 if __name__ == "__main__":
